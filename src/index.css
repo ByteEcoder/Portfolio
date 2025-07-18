@@ -24,8 +24,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* Removed display: flex and place-items: center from body */
+  /* This prevents the entire body content from being centered by default */
   min-width: 320px;
   min-height: 100vh;
 }
