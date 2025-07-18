@@ -29,7 +29,7 @@
 /* You'll also need to style .home__img, .home__data, and .home__social appropriately */
 /* Example placeholder styles (you may already have these or similar) */
 .home__img{
-    background: url(https://placehold.co/300x300/E0E0E0/000000?text=Your+Image);  /*I'll add my profile pic here */
+    background: url(../src/assets/profile.jpg);  /*I'll add my profile pic here */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,4 +132,82 @@
 .home__scroll-arrow {
   color: var(--title-color);
   font-size: 1.25rem; 
+}
+
+@media screen and (min-width: 1024px) { 
+  .home__content {
+    grid-template-columns: 100px repeat(2, 1fr); 
+    column-gap: 1.25rem;
+  }
+
+  .home__hand{
+    width: 40px;
+    height: 40px;
+  }
+
+  .home__subtitle
+  {
+    padding-left: 3.5rem; 
+    margin-bottom: var(--mb-1);
+
+  }
+  .home__subtitle::before
+  {
+    width:42px;
+    top:0.8rem;
+  }
+
+  .home__img{
+  width: 250px;
+  height: 250px;
+  box-shadow: inset 0 0 0 8px rgb(255, 255, 255 / 30%);
+  }
+
+  .home__scroll{
+    margin-left: 7.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .home__content {
+    grid-template-columns: 0.5fr 3fr; /* Adjust columns for smaller screens */
+    padding-top: 3.5rem;
+  }
+
+  .home__img{
+    order:initial;
+    justify-self: initial;
+  }
+
+  .home__data{
+    grid-column:1/3;
+
+  }
+
+  .home__img{
+    box-shadow: inset 0 0 0 6px rgb(255, 255, 255 / 30%);
+    width: 200px;
+    height: 200px;
+  }
+  .home__scroll
+  {
+    display:none;
+  }
+ 
+}
+
+
+@media screen and (max-width: 350px) {
+  .home__img{
+    width: 180px;
+    height: 180px;
+   
+  }
+
+  .home__hand{
+    width: 22px;
+    height: 22px;
+  }
 }
