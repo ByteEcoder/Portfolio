@@ -103,3 +103,33 @@
 .home__data {
   justify-self: start; /* Align data to the start of its grid cell */
 }
+.home__scroll{
+    margin-left: 9.25rem;
+}
+
+.wheel{
+    animation:scroll 1.5s ease infinite;
+
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(2.75rem);
+  }
+}
+
+.home__scroll-name {
+  font-weight:var(--normal-font-size) ;
+  color: var(--title-color);
+  margin-left: 2px; 
+  margin-right: var(--mb-0-25);
+}
+
+.home__scroll-arrow {
+  color: var(--title-color);
+  font-size: 1.25rem; 
+}
