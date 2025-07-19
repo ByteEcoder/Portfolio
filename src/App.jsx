@@ -3,14 +3,18 @@ import "./App.css";
 import Header from '../components/Header';
 import Home from '../pages/Home';
 import About from '../pages/About';
+import Skills from '../pages/Skills';
+import Quali from '../pages/Quali';
 
 const App = () => {
   return (
     <>  
     <Header />
     <main className="main">
-      <Home />
-       <About /> 
+        <Home />
+        <About /> 
+        <Skills />
+        <Quali />
     </main>
     </>
   );

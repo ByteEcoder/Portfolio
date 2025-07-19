@@ -83,6 +83,16 @@
   }
 }
 
+
+@media screen and (max-width: 576px) {
+  .about__info {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .about__description{
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .about__info {
     grid-template-columns: repeat(2, 1fr);

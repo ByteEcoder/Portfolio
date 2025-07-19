@@ -173,7 +173,7 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (min-width: 1024px) { /* Changed from max-width to min-width for larger screens */
+@media screen and (min-width: 1024px) { 
   .container {
     max-width: 1024px; /* Increased container width for larger screens */
     padding: 0; /* Remove horizontal padding as auto margins will handle centering */
@@ -189,8 +189,11 @@ img {
   }
 }
 
-/* For medium devices */
+
 @media screen and (max-width: 768px) {
+  body{
+    margin: 0 0 var(--header-height) 0;
+  }
  
 
   .section {
