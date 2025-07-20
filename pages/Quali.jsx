@@ -9,7 +9,7 @@ const Quali = () => {
     };
   return (
         <section className="qualification section">
-            <h2 className="section__title">qualification</h2>
+            <h2 className="section__title">Qualification</h2>
            <span className="section__subtitle"></span>    {/*   message here */}
        
             <div className="qualification__container container">
