@@ -20,7 +20,7 @@ const Contact = () => {
     
     <section className="contact section" id="contact">
         <h2 className="section__title">Get in Touch</h2>
-        <span className="section__subtitle">Contact Me</span>
+        {/* <span className="section__subtitle">Contact Me</span> */}
     
 
         <div className="contact__container container grid">
@@ -50,7 +50,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">Instagram</h3>
                         <span className="contact__card-data">instagram.com</span>
 
-                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt"></i></a>  
+                        <a href="https://www.instagram.com/ikumarskv" className="contact__button">Write me <i className="bx bx-right-arrow-alt"></i></a>  
                         {/* i have to add this field */}
                     </div>
 

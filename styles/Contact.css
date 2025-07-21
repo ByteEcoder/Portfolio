@@ -17,6 +17,9 @@
     width: 360px; 
 }
 
+.section__title{
+  margin-bottom: var(--mb-2-5);
+}
 
 .contact__title{
     text-align: center;

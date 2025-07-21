@@ -16,7 +16,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                    Some blah blah blah  about me 
+                    Pursuing B.Tech in Computer Science (AI) at Galgotias University, exploring tech beyond the classroom — building projects, solving problems, and figuring things out one challenge at a time.
                 </p>
 
                 <a download="" href={Resume} className="button button--flex">Download Resume

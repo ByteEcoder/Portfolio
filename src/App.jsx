@@ -6,6 +6,9 @@ import About from '../pages/About';
 import Skills from '../pages/Skills';
 import Quali from '../pages/Quali';
 import Contact from '../pages/Contact';
+import Footer from '../components/Footer';
+import ScrollUp from '../components/ScrollUp';
+
 
 const App = () => {
   return (
@@ -16,9 +19,11 @@ const App = () => {
         <About /> 
         <Skills />
         <Quali />
-        
         <Contact />
+        
     </main>
+    <Footer />
+    <ScrollUp />
     </>
   );
 };

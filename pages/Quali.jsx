@@ -15,12 +15,12 @@ const Quali = () => {
             <div className="qualification__container container">
                 <div className="qualification__tabs">
                     <div className={toggleState === 1?"qualification__button qualification__active button--flex" :"qualification__button button--flex"}onClick={() => toggleTab(1)}>
-                        <i className="uil uil-graduation-cap qualification__icon"></i>Graduation
+                        <i className="uil uil-graduation-cap qualification__icon"></i>Education
                     </div>
-
-                    <div className={toggleState === 2?"qualification__button qualification__active button--flex" :"qualification__button button--flex"}onClick={() => toggleTab(2)}>
+                    {/* use it in future */}
+                    {/* <div className={toggleState === 2?"qualification__button qualification__active button--flex" :"qualification__button button--flex"}onClick={() => toggleTab(2)}>
                         <i className="uil uil-briefcase-alt qualification__icon"></i>Experience
-                    </div>
+                    </div> */}  
                 </div>
             </div>
        
@@ -28,12 +28,12 @@ const Quali = () => {
                 <div className={toggleState===1?"qualification__content qualification__content-active":"qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">B.Tech</h3>
-                            <span className="qualification__subtitle">Galgotias University</span>
+                            <h3 className="qualification__title">Higher Secondary (XII)</h3>
+                            <span className="qualification__subtitle">ISC board</span>
 
                             <div className="qualification__calander">
                                 <i class="uil uil-calendar-alt"></i>
-                                2023-Present
+                                2022
                             </div> 
                         </div>
                     
@@ -54,24 +54,24 @@ const Quali = () => {
                                         
                         </div>
 
-                        <div>
-                            <h3 className="qualification__title">Game developer</h3>
+                         <div>
+                            <h3 className="qualification__title">B.Tech</h3>
                             <span className="qualification__subtitle">Galgotias University</span>
 
                             <div className="qualification__calander">
                                 <i class="uil uil-calendar-alt"></i>
                                 2023-Present
                             </div> 
-                        </div>
+                        </div> 
                     
                         
                     </div>
 
 
-                     <div className="qualification__data">
+                     {/* <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Developer</h3>
-                            <span className="qualification__subtitle">xyz company</span>
+                            <h3 className="qualification__title">B.Tech</h3>
+                            <span className="qualification__subtitle">Galgotias University</span>
 
                             <div className="qualification__calander">
                                 <i class="uil uil-calendar-alt"></i>
@@ -107,7 +107,7 @@ const Quali = () => {
                         </div>
                     
                         
-                    </div>
+                    </div> */}
                 </div>
 
 
