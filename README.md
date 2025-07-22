@@ -1,4 +1,4 @@
-Personal Portfolio Website
+#Personal Portfolio Website#
 A simple, responsive website built with React and Vite — showcasing my projects, skills, and a bit about me… because sending PDFs felt a bit too old school.
 
 🛠️ Tech Stack
