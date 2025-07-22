@@ -62,7 +62,7 @@
   
 }
 .home__social-icon {
-  color: black; /* This will make the icon black */
+  color: rgb(192, 185, 185); /* This will make the icon black */
   /* Keep any other existing styles like font-size, margin etc. */
 }
 
@@ -121,6 +121,7 @@
     transform: translateY(2.75rem);
   }
 }
+
 
 .home__scroll-name {
   font-weight:var(--normal-font-size) ;

@@ -7,18 +7,18 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --hue: 30; /* A subtle warm hue (orange/brown) */
+  --sat: 5%; /* Very low saturation for a neutral feel */
+  --title-color: hsl(var(--hue), 15%, 99%); /* Dark warm gray for titles */
+  --title-color-dark: hsl(var(--hue), 8%, 97%); /* Even darker for hover */
+  --text-color: hsl(var(--hue), 6%, 60%); /* Soft neutral gray for text */
+  --body-color: hsl(var(--hue), var(--sat), 12%); /* Very light, warm off-white background */
+  --container-color:hsl(var(--hue), var(--sat), 20%); /* Slightly warmer off-white */
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
 
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /* Other font sizes and weights remain as in your original CSS */
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
@@ -34,7 +34,6 @@
   --font-semi-bold: 600;
 
   /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
